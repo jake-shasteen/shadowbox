@@ -1,0 +1,13 @@
+.container {
+  width: 80%;
+}
+
+.images {
+  list-style: none;
+  margin: 0;
+}
+
+li img {
+  padding: 2px;
+  border: 1px solid;
+}
