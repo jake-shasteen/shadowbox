@@ -15,5 +15,11 @@ $( 'document' ).ready( function() {
 // });
 
 // TODO: Implement shadowbox on images
+// On click on the active shadowbox,
+  // hide shadowbox
+  // clear img src
+// On click on an image,
+  // set shadowbox img src
+  // remove hidden class from shadowbox 
 
 });
