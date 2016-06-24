@@ -9,7 +9,11 @@
 
 .images li {
   display: inline-block;
+  cursor: pointer;
+  cursor: hand;
+
   margin-left: 15px;
+  margin-top: 15px;
 }
 
 li img {
@@ -24,6 +28,8 @@ li img {
   width: 100vw;
   height: 100vh;
   background-color: rgba( 0, 0, 0, .75 );
+  cursor: pointer;
+  cursor: hand;
 }
 
 #shadowbox img {
