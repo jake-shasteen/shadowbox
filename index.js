@@ -18,6 +18,11 @@ $( 'document' ).ready( function() {
 // On click on the active shadowbox,
   // hide shadowbox
   // clear img src
+$( '#shadowbox' ).on( 'click', function() {
+  var $shadowbox = $( '#shadowbox' );
+  $shadowbox.addClass( 'hidden' );
+  $shadowbox.find( 'img' ).attr( 'src', '' );
+});
 // On click on an image,
   // set shadowbox img src
   // remove hidden class from shadowbox 
